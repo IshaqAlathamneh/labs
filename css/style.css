@@ -1,0 +1,60 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  body h2 {
+    color: blue;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+li {
+display: inline;
+margin-left: 70px;
+margin-right: 70px;
+padding-left: 70px;
+padding-right: 70px;
+
+}
+#b {
+    margin-left: 130px;
+padding-left: 100px;
+margin-right: 40px;
+padding-right: 40px;
+
+}
+#a {
+    margin-right: 110px;
+    padding-right: 100px;
+    margin-left: 75px;
+    padding-left: 75px;
+}
+ul {
+    background-color: brown;
+    color: cyan;
+}
+main h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+p {
+    text-align: center;
+    font-size: larger;
+    font-style: unset;
+    font-weight: bold;
+}
+article {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
