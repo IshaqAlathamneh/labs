@@ -33,7 +33,7 @@ padding-right: 40px;
     margin-left: 75px;
     padding-left: 75px;
 }
-ul {
+header ul {
     background-color: brown;
     color: cyan;
 }
@@ -57,4 +57,12 @@ article {
   background-color: red;
   color: white;
   text-align: center;
+}
+body {
+    background: #D0E4F5 url("https://previews.123rf.com/images/nuttakit/nuttakit1204/nuttakit120400028/13387478-old-color-paint-wood-wall-and-floor-for-web-page-background.jpg") no-repeat scroll 0px 0px;
+}
+footer ol li {
+    border: 1px outset #1C6EA4;
+border-radius: 25px 25px 25px 0px;
+padding: auto;
 }
