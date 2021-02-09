@@ -2,10 +2,50 @@
 let userName = prompt("What's your name?");
 alert("Hello " + userName +" answer the next questions by using yes or no (y/n)")
 let firstQ = prompt("Does Ishaq like shawerma?")
+if(firstQ.toLowerCase() === "yes" || firstQ.toLowerCase() === "y")
+{
+alert('You are correct')
+}else if (firstQ.toLowerCase() === "no" || firstQ.toLowerCase() === "n"){
+alert('You are incorrect')
+}else{
+    alert('Enter just yes or no')
+};
 let secQ = prompt("Does Ishaq like cofee?")
+if(secQ.toLowerCase() === "yes" || secQ.toLowerCase() === "y")
+{
+alert('You are incorrect')
+}else if(secQ.toLowerCase() === "no" || secQ.toLowerCase() === "n"){
+alert('You are correct')
+}else{
+    alert('Enter just yes or no')
+};
 let thQ = prompt("Okay " + userName + " do I watch football?")
+if(thQ.toLowerCase() === "yes" || thQ.toLowerCase() === "y")
+{
+alert('You are correct')
+}else if(thQ.toLowerCase() === "no" || thQ.toLowerCase() === "n"){
+alert('You are incorrect')
+}else{
+    alert('Enter just yes or no')
+};
 let forthQ = prompt("Has Ishaq ever traveled outside his country?")
+if(forthQ.toLowerCase() === "yes" || forthQ.toLowerCase() === "y")
+{
+alert('You are correct')
+}else if(forthQ.toLowerCase() === "no" || forthQ.toLowerCase() === "n"){
+alert('You are incorrect')
+}else{
+    alert('Enter just yes or no')
+};
 let fifthQ = prompt("Do Ishaq love jordan?")
+if(fifthQ.toLowerCase() === "yes" || fifthQ.toLowerCase() === "y")
+{
+alert('You are correct')
+}else if(fifthQ.toLowerCase() === "no" || fifthQ.toLowerCase() === "n"){
+alert('You are incorrect')
+}else{
+    alert('Enter just yes or no')
+};
 // console.log(firstQ)
 // console.log(secQ)
 if(firstQ.toLowerCase() === "yes" || firstQ.toLowerCase() === "y")
