@@ -240,7 +240,7 @@ funSix();
 console.log(score)
 
 
-
+function funSeven(){
 let qO = prompt('what is my fav food')
 for (let ia = 1; ia < 7; ia++) {
     if(ia > 1){
@@ -258,6 +258,8 @@ for (let ia = 1; ia < 7; ia++) {
 } 
 }
 alert('The answers are mansaf & shawerma & pizza & mandi & burger')
+}
+funSeven();
 // for (let ib = 1; ib < 7; ib++) {
 //     let qO = prompt('what is my fav club')
 //     switch (qO){
