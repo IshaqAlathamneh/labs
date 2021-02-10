@@ -226,22 +226,23 @@ console.log(score)
 
 
 
+let qO = prompt('what is my fav food')
 for (let ia = 1; ia < 7; ia++) {
-    let qO = prompt('what is my fav food')
-    switch (qO){
-        case "mansaf":
-        case "pizza":
-        case "shawerma":    
-            alert('Correct!!')
-            ia = 7
-            score++ 
-            break;
-        default:
-            alert('that is incorrect') 
-               
-    }
+    if(ia > 1){
+    qO = prompt('Try again what is my fav food')
 }
-alert('The answers are mansaf & shawerma & pizza')
+   let favFood = ['mansaf','pizza','shawerma','mandi','burger']
+   for (let j=0 ; j < favFood.length ; j++){
+       if (qO.toLowerCase() === favFood[j]){
+       alert('you are correct!!')
+       score++
+       ia = 7;
+       break;
+
+   }
+} 
+}
+alert('The answers are mansaf & shawerma & pizza & mandi & burger')
 // for (let ib = 1; ib < 7; ib++) {
 //     let qO = prompt('what is my fav club')
 //     switch (qO){
