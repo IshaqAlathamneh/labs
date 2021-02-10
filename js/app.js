@@ -28,6 +28,7 @@ score++
 }};
 funTwo();
 
+function funThree(){
 let thQ = prompt("Okay " + userName + " do I watch football?")
 if(thQ.toLowerCase() === "yes" || thQ.toLowerCase() === "y")
 {
@@ -37,7 +38,9 @@ score++
 alert('You are incorrect')
 }else{
     alert('Enter just yes or no')
-};
+}};
+funThree();
+
 let forthQ = prompt("Has Ishaq ever traveled outside his country?")
 if(forthQ.toLowerCase() === "yes" || forthQ.toLowerCase() === "y")
 {
