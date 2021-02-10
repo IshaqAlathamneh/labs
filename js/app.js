@@ -53,6 +53,8 @@ alert('You are incorrect')
     alert('Enter just yes or no')
 }};
 funFour();
+
+function funFive(){
 let fifthQ = prompt("Do Ishaq love jordan?")
 if(fifthQ.toLowerCase() === "yes" || fifthQ.toLowerCase() === "y")
 {
@@ -62,8 +64,8 @@ score++
 alert('You are incorrect')
 }else{
     alert('Enter just yes or no')
-};
-
+}};
+funFive();
 
 // for (let i = 1; i < 5; i++) {
     
