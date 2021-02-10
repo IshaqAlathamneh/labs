@@ -208,6 +208,7 @@ funFive();
 //     }
 // }
 // console.log(score)
+function funSix(){
 for (let a = 1; a < 5; a++) {
     
     let askFour = prompt('Do you know the percentage of your loving in my heart?')
@@ -234,7 +235,8 @@ for (let a = 1; a < 5; a++) {
     if(a === 4){
         alert('You take 99% of my heart')
     }
-}
+}}
+funSix();
 console.log(score)
 
 
