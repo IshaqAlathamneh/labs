@@ -2,6 +2,7 @@
 let score = 0;
 let userName = prompt("What's your name?");
 alert("Hello " + userName +" answer the next questions by using yes or no (y/n)")
+function funOne(){
 let firstQ = prompt("Does Ishaq like shawerma?")
 if(firstQ.toLowerCase() === "yes" || firstQ.toLowerCase() === "y")
 {
@@ -11,7 +12,8 @@ score++
 alert('You are incorrect')
 }else{
     alert('Enter just yes or no')
-};
+}};
+funOne();
 let secQ = prompt("Does Ishaq like cofee?")
 if(secQ.toLowerCase() === "yes" || secQ.toLowerCase() === "y")
 {
