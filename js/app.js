@@ -41,6 +41,7 @@ alert('You are incorrect')
 }};
 funThree();
 
+function funFour(){
 let forthQ = prompt("Has Ishaq ever traveled outside his country?")
 if(forthQ.toLowerCase() === "yes" || forthQ.toLowerCase() === "y")
 {
@@ -50,7 +51,8 @@ score++
 alert('You are incorrect')
 }else{
     alert('Enter just yes or no')
-};
+}};
+funFour();
 let fifthQ = prompt("Do Ishaq love jordan?")
 if(fifthQ.toLowerCase() === "yes" || fifthQ.toLowerCase() === "y")
 {
