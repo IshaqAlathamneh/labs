@@ -14,6 +14,8 @@ alert('You are incorrect')
     alert('Enter just yes or no')
 }};
 funOne();
+
+function funTwo(){
 let secQ = prompt("Does Ishaq like cofee?")
 if(secQ.toLowerCase() === "yes" || secQ.toLowerCase() === "y")
 {
@@ -23,7 +25,9 @@ alert('You are correct')
 score++
 }else{
     alert('Enter just yes or no')
-};
+}};
+funTwo();
+
 let thQ = prompt("Okay " + userName + " do I watch football?")
 if(thQ.toLowerCase() === "yes" || thQ.toLowerCase() === "y")
 {
