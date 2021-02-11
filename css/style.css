@@ -1,8 +1,12 @@
+*{
+    color: rgb(221, 221, 221);
+}
 .center {
+    
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+    padding: auto;
+    width: 50%;
+    margin-left: 380px;
   }
 
   body h2 {
@@ -20,6 +24,16 @@ padding-left: 70px;
 padding-right: 70px;
 
 }
+body header ul{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
 #b {
     margin-left: 130px;
 padding-left: 100px;
@@ -59,10 +73,31 @@ article {
   text-align: center;
 }
 body {
-    background: #D0E4F5 url("https://previews.123rf.com/images/nuttakit/nuttakit1204/nuttakit120400028/13387478-old-color-paint-wood-wall-and-floor-for-web-page-background.jpg") no-repeat scroll 0px 0px;
+    background: #D0E4F5 url("https://i.pinimg.com/originals/7f/22/bd/7f22bd1107b49b5eac20ce21b80d6489.jpg") no-repeat scroll 0px 0px; 
+    background-size: 150%;
+    width: 100%;
 }
+
 footer ol li {
-    border: 1px outset #1C6EA4;
+    list-style-type: upper-roman;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 4px outset #1C6EA4;
 border-radius: 25px 25px 25px 0px;
-padding: auto;
+padding-left: 20px;
+padding-right: 20px;
+background-color: cadetblue;
+}
+#lo{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+main li{
+    font-size: x-large;
+    text-align: center;
 }
