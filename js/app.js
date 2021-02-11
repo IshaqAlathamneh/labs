@@ -2,6 +2,7 @@
 let score = 0;
 let userName = prompt("What's your name?");
 alert("Hello " + userName +" answer the next questions by using yes or no (y/n)")
+function funOne(){
 let firstQ = prompt("Does Ishaq like shawerma?")
 if(firstQ.toLowerCase() === "yes" || firstQ.toLowerCase() === "y")
 {
@@ -11,7 +12,10 @@ score++
 alert('You are incorrect')
 }else{
     alert('Enter just yes or no')
-};
+}};
+funOne();
+
+function funTwo(){
 let secQ = prompt("Does Ishaq like cofee?")
 if(secQ.toLowerCase() === "yes" || secQ.toLowerCase() === "y")
 {
@@ -21,7 +25,10 @@ alert('You are correct')
 score++
 }else{
     alert('Enter just yes or no')
-};
+}};
+funTwo();
+
+function funThree(){
 let thQ = prompt("Okay " + userName + " do I watch football?")
 if(thQ.toLowerCase() === "yes" || thQ.toLowerCase() === "y")
 {
@@ -31,7 +38,10 @@ score++
 alert('You are incorrect')
 }else{
     alert('Enter just yes or no')
-};
+}};
+funThree();
+
+function funFour(){
 let forthQ = prompt("Has Ishaq ever traveled outside his country?")
 if(forthQ.toLowerCase() === "yes" || forthQ.toLowerCase() === "y")
 {
@@ -41,7 +51,10 @@ score++
 alert('You are incorrect')
 }else{
     alert('Enter just yes or no')
-};
+}};
+funFour();
+
+function funFive(){
 let fifthQ = prompt("Do Ishaq love jordan?")
 if(fifthQ.toLowerCase() === "yes" || fifthQ.toLowerCase() === "y")
 {
@@ -51,9 +64,13 @@ score++
 alert('You are incorrect')
 }else{
     alert('Enter just yes or no')
-};
+}};
+funFive();
 
 
+
+
+function funSix(){
 
 for (let a = 1; a < 5; a++) {
     
@@ -81,11 +98,12 @@ for (let a = 1; a < 5; a++) {
     if(a === 4){
         alert('You take 99% of my heart')
     }
-}
+}}
+funSix();
 console.log(score)
 
 
-
+function funSeven(){
 let qO = prompt('what is my fav food')
 for (let ia = 1; ia < 7; ia++) {
     if(ia > 1){
@@ -103,5 +121,9 @@ for (let ia = 1; ia < 7; ia++) {
 } 
 }
 alert('The answers are mansaf & shawerma & pizza & mandi & burger')
+
+}
+funSeven();
+
 
 alert(`Your mark is ${score} out of 7`)
